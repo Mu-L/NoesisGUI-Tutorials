@@ -6,7 +6,7 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class DatBindingEditorTarget : TargetRules
+public class DataBindingEditorTarget : TargetRules
 {
     public DataBindingEditorTarget(TargetInfo Target) : base(Target)
     {
