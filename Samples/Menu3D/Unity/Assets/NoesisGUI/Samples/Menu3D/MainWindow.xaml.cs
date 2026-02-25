@@ -64,14 +64,4 @@ namespace Menu3D
         StackPanel FrontClouds;
 #endif
     }
-
-#if NOESIS
-    public static class AnimatableExtensions
-    {
-        public static void BeginAnimation(this Animatable animatable, DependencyProperty dp, object dummy)
-        {
-            animatable.ClearAnimation(dp);
-        }
-    }
-#endif
 }
